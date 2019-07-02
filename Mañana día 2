@@ -1,0 +1,83 @@
+my_age = 24 #Intiger
+weight = 75.5 #Float
+my_name = 'Diego' #String
+is_legal = True
+#+
+#-
+#*
+#/
+#//
+#**
+#%
+
+#print(dir(my_name))
+#print(my_name.upper())
+#print(my_name.lower())
+
+text = 'Hola yo soy ' + my_name
+#text2 = 'Tengo' + my_age + 'años' <- esto está mal
+#text2 = 'Yo tengo {} años'.format(my_age)
+#text3 = "hola mama soy %s y tengo %i años y estoy gordito porque peso %.2f" %(my_name, my_age, weight)
+#print(text3)
+#print(my_name[-1])
+#print(len(my_name))
+
+#Comparar
+# == exactamente iguales
+# != diferentes
+#Comparar números
+#< mayor que
+#> menor que
+#>= mayor o igual que
+#<= menor o igual que
+#if not my_age < 18:
+#  print('Vamonos a beber')
+#else:
+#  print('Saquese a jugar fornite')
+beers = [
+  'Minerva',
+  'Indio',
+  'Victoria',
+  'León',
+  'Modelo',
+  'Saporo',
+  'Param'
+]
+
+#print(beers)
+#beers.append('Heineken')
+#print(beers)
+#beers.append('Heineken')
+#chela = beers.pop(0)
+#chela2 = beers.remove('León')
+#print(chela)
+#print(chela2)
+#print(beers)
+
+#for item in beers:
+  #print(item)
+
+#numbers = [1,2,3]
+#squared_numbers = [numero **2 for numero in numbers]
+#suma= sum(squared_numbers)
+#print(suma)
+#print(squared_numbers)
+#m_beers = [beer for beer in beers if beer[0]== 'M']
+#print(m_beers)
+
+#lista = [[1,2,3],
+#  ['a','b','c'],
+#  [1,2,3],
+#  ['a','b','c'],
+#  [1,2,3]
+#  ,['a','b','c']
+#  ]
+
+#lista2 = []
+#for l in lista:
+#  for e in l:
+#    lista2.append(e)
+#print(lista2)
+
+#lista3 = [e for l in lista for e in l]
+#print(lista3)#

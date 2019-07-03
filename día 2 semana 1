@@ -28,7 +28,7 @@
 #text = 'Hola yo soy ' + my_name <-- suma dos strings.
 #text2 = 'Tengo' + my_age + 'años' <-- esto está mal
 #text2 = 'Yo tengo {} años'.format(my_age) <-- de esta forma agregamos una variable diferente, el .format() cambia el tipo y lo inserta en los {}
-#text3 = "hola mama soy %s y tengo %i años y estoy gordito porque peso %.2f" %(my_name, my_age, weight) <-- esto es lo mismo pero peor.
+#text3 = "hola mama soy %s y tengo %i años y estoy gordito porque peso %.2f" %(my_name, my_age, weight) <-- esto es lo mismo pero diferente.
 #print(text3)
 #print(my_name[-1]) <-- muestra la última letra de la variable my_name
 #print(len(my_name)) <-- muestra la longitud de la variable my_name
@@ -42,13 +42,16 @@
 
 #Comparar números
 
-# < mayor que
-# > menor que
-# >= mayor o igual que
-# <= menor o igual que
+# < <-- mayor que
+# > <-- menor que
+# >= <-- mayor o igual que
+# <= <-- menor o igual que
 
 #EJEMPLO.
 <<<<<<<<
+
+#Se usará if para condicionar a un enunciado a ser verdadero, si es verdadero imprimirá "Vamonos a beber" y si es falso "Saquese a jugar fortnite",
+#la forma de programarlo es la siguiente:
 
 #if not my_age < 18:
 #  print('Vamonos a beber')
@@ -57,6 +60,8 @@
 
 #LISTAS.
 <<<<<<<<
+
+#Se creo una lista de cervezas de la siguiente forma.
 
 beers = [
   'Minerva',
@@ -67,12 +72,13 @@ beers = [
   'Saporo',
   'Param'
 ]
+#ALGUNAS POSIBILIDADES.
+<<<<<<<<<<<<<<<<<<<<<<<
 
-#print(beers)
-#beers.append('Heineken')
-#print(beers)
-#beers.append('Heineken')
-#chela = beers.pop(0)
+#print(beers) <-- imprimir las cervezas en la terminal.
+#beers.append('Heineken') <-- agregar un elemento a la lista.
+#print(beers) <-- imprimir las cervezas en la terminal después del cambio.
+#chela = beers.pop(0) <--
 #chela2 = beers.remove('León')
 #print(chela)
 #print(chela2)

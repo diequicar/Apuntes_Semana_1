@@ -1,14 +1,15 @@
+#OPERADORES BÁSICOS
 my_age = 24 #Intiger
 weight = 75.5 #Float
 my_name = 'Diego' #String
 is_legal = True
-#+
-#-
-#*
-#/
-#//
-#**
-#%
+#+ suma
+#- resta
+#* multiplicación
+#/ división
+#// división entera
+#** exponente
+#% módulo
 
 #print(dir(my_name))
 #print(my_name.upper())
@@ -81,3 +82,51 @@ beers = [
 
 #lista3 = [e for l in lista for e in l]
 #print(lista3)#
+#list = [l for l in range(0,51)]
+#print(list)
+
+#TUPLAS
+
+#tupla = (1,2,3,4,'comida')
+#print(type(tupla))
+#print(dir(tu6pla))
+
+#tupla2 = 5,6,7,8
+#print(tupla2)
+
+#SETS
+
+#my_set = {1,2,3,4,5}
+#my_set2 = {3,5,7,9,11}
+
+#print(my_set.union(my_set2))
+#print(my_set.intersection(my_set2))
+
+#set_beers = set(beers)
+#print(set_beers)
+
+#DICCIONARIOS
+
+persona = {
+  "Nombre":"Diego",
+  "isLegal":False,
+  "age":24,
+  "isHungry":True
+}
+
+#print(persona['Nombre'])
+#persona['feelsSick'] = 'ya no mucho'
+#print(persona)
+#del persona['isLegal']
+#print(persona)
+
+#keys = persona.keys()
+#print(keys)
+#values = persona.values()
+#print(values)
+
+#for k,v in persona.items():
+#  print(k,v)
+
+newDict = {k: 'Hola {}'.format(v) for k,v in persona.items()}
+print(newDict){}

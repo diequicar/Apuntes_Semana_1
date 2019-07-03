@@ -1,40 +1,63 @@
-#OPERADORES BÁSICOS
-my_age = 24 #Intiger
-weight = 75.5 #Float
-my_name = 'Diego' #String
-is_legal = True
-#+ suma
-#- resta
-#* multiplicación
-#/ división
-#// división entera
-#** exponente
-#% módulo
+#TIPOS DE VARIABLES.
+<<<<<<<<<<<<<<<<<<<
 
-#print(dir(my_name))
-#print(my_name.upper())
-#print(my_name.lower())
+#my_age = 24  <-- Intiger
+#weight = 75.5 <-- Float
+#my_name = 'Diego' <-- String
+#is_legal = True  <-- Boolean
 
-text = 'Hola yo soy ' + my_name
-#text2 = 'Tengo' + my_age + 'años' <- esto está mal
-#text2 = 'Yo tengo {} años'.format(my_age)
-#text3 = "hola mama soy %s y tengo %i años y estoy gordito porque peso %.2f" %(my_name, my_age, weight)
+
+#OPERADORES BÁSICOS.
+<<<<<<<<<<<<<<<<<<<<
+
+# + <-- suma
+# - <-- resta
+# * <-- multiplicación
+# / <-- división
+# // <-- división entera
+# ** <-- exponente
+# % <-- módulo
+
+#ALGUNAS POSIBILIDADES.
+<<<<<<<<<<<<<<<<<<<<<<
+
+#print(dir(my_name)) <-- demuestra las posbiles interacciónes con la variable.
+#print(my_name.upper()) <-- convierte a mayúsculas la variable.
+#print(my_name.lower()) <-- convierte a mínusculas la variable.
+
+#text = 'Hola yo soy ' + my_name <-- suma dos strings.
+#text2 = 'Tengo' + my_age + 'años' <-- esto está mal
+#text2 = 'Yo tengo {} años'.format(my_age) <-- de esta forma agregamos una variable diferente, el .format() cambia el tipo y lo inserta en los {}
+#text3 = "hola mama soy %s y tengo %i años y estoy gordito porque peso %.2f" %(my_name, my_age, weight) <-- esto es lo mismo pero peor.
 #print(text3)
-#print(my_name[-1])
-#print(len(my_name))
+#print(my_name[-1]) <-- muestra la última letra de la variable my_name
+#print(len(my_name)) <-- muestra la longitud de la variable my_name
 
-#Comparar
-# == exactamente iguales
-# != diferentes
+#FORMAS DE COMPARAR.
+<<<<<<<<<<<<<<<<<<<<
+
+#Compara cualquier cosa.
+# == <-- exactamente iguales
+# != <-- diferentes
+
 #Comparar números
-#< mayor que
-#> menor que
-#>= mayor o igual que
-#<= menor o igual que
+
+# < mayor que
+# > menor que
+# >= mayor o igual que
+# <= menor o igual que
+
+#EJEMPLO.
+<<<<<<<<
+
 #if not my_age < 18:
 #  print('Vamonos a beber')
 #else:
 #  print('Saquese a jugar fornite')
+
+#LISTAS.
+<<<<<<<<
+
 beers = [
   'Minerva',
   'Indio',

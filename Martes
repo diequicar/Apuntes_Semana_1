@@ -37,6 +37,7 @@
 <<<<<<<<<<<<<<<<<<<<
 
 #Compara cualquier cosa.
+
 # == <-- exactamente iguales
 # != <-- diferentes
 
@@ -78,20 +79,26 @@ beers = [
 #print(beers) <-- imprimir las cervezas en la terminal.
 #beers.append('Heineken') <-- agregar un elemento a la lista.
 #print(beers) <-- imprimir las cervezas en la terminal después del cambio.
-#chela = beers.pop(0) <--
-#chela2 = beers.remove('León')
+#chela = beers.pop(0) <-- elimina el primer elemento y lo devuelve.
+#chela2 = beers.remove('León') <-- elimana () elemento.
 #print(chela)
 #print(chela2)
 #print(beers)
 
+#Se crea un loop para que al momento de imprimirlo salgan cada uno de los items de la lista por separado.
+
 #for item in beers:
   #print(item)
+
+#Se crea un loop para que una variable sea la suma de los cuadrados de dicha lista.
 
 #numbers = [1,2,3]
 #squared_numbers = [numero **2 for numero in numbers]
 #suma= sum(squared_numbers)
 #print(suma)
 #print(squared_numbers)
+
+# Se crea un loop para que solo imprima los elementos que cumplan con la regla marcada.
 #m_beers = [beer for beer in beers if beer[0]== 'M']
 #print(m_beers)
 
